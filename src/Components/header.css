@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px 50px;
+  background-color: #fff;
+  --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+    0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.logo {
+  margin-left: 15px;
+}
+.logo a img {
+  width: 120px;
+}
+.nav-menu {
+  margin-right: 25px;
+}
+.nav-menu ul li a {
+  color: #000;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}

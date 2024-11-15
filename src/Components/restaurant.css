@@ -1,0 +1,52 @@
+.card {
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.card img {
+  /* display: flex; */
+  width: 90%;
+  height: 29vh;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.card h4 {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.card h5,
+h6 {
+  color: #4b5563;
+  /* color: rgb(51, 51, 51); */
+  margin-left: 10px;
+}
+.card span {
+  display: flex;
+}
+/* --------------------------------------home component  */
+.home {
+  padding: 20px 20px;
+  margin: 0px 50px;
+}
+.home h1 {
+  margin-top: 30px;
+}
+.home .search-container .search-btn {
+  margin-left: 6px;
+  padding: 4px;
+  border-radius: 5px;
+  border-color: orange;
+  background-color: transparent;
+}
+.home .search-container .search-input {
+  width: 250px;
+  height: 30px;
+  border-color: black;
+  border-radius: 10px;
+}
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
